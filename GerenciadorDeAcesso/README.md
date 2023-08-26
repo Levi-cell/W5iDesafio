@@ -4,7 +4,6 @@ Por ser um Desafio Nacional, fiz o projeto 100% em português exceto por esse ar
 
 Neste video você encontrará mais detalhes: https://vimeo.com/858088676/c12470a5c6
 
-
 OBJETIVO DO PROGRAMA:
 
 Imagine que você está fazendo o software de uma empresa para liberar o acesso aos funcionários para dentro e fora da empresa, é como se fosse aquelas catracas automáticas nos prédios só que ao passar pela catraca o funcionário precisar interagir com o Display, nesse display será mostrada 3 opções. a opção de cadastro para caso o funcionário seja novo, e opção de sair e entrar, vale lembrar que o funcionário não pode entrar de novo se ele já entrou, e não pode sair se já saiu. Também teve ter um banco de dados já que o programa só ficará ativo quando alguém passar pela catraca.
