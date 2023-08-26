@@ -4,6 +4,8 @@ Por ser um Desafio Nacional, fiz o projeto 100% em português exceto por esse ar
 
 Não vou mentir que no inicio tive muitas ideias e foi difícil saber por onde começar, por isso decidi primeiro focar especificamente em realizar tudo que foi Pedido. Porém agora que a parte essencial do Projeto está pronta, tanto eu quanto  o público pode se sentir a vontade para contribuir com Ideias no GitHub.
 
+Neste video você encontrará um resumo do que tem aqui e algumas informações extras: https://vimeo.com/858088676/c12470a5c6
+
 
 OBJETIVO DO PROGRAMA:
 
@@ -45,9 +47,9 @@ Siga esse passo a passo:
 
 COMO ACESSAR O BANCO DE DADOS
 
-Caso queira acessar o banco de dados você terá que instalar o Python no seu computador se você tiver Windows a própria microsoft store disponibilizará, é só baixar e abrir o Python Idle e após clonar o respositorio, baixe o sqlitebroswer neste link: https://sqlitebrowser.org/. Como IDE recomendo o Pycharm. em algum lugar desse readme deixarei umas consultas. Quando você executar o programa ele irá liberar um arquivo.db que é o seu banco de dados provavelmente será "empresa.db" abra o sqlite e vá em open database após ir pro caminho desse arquivo abra o arquivo.db, você poderá visualizar o banco de dados logo em seguida, caso queira praticar consultas vá para execute sql. Vale lembrar que o SQLlite possui algumas limitações, em consultas mais complexas ele não consegue conhectar as chaves estrangeiras e acaba por duplicando os dados.
+Caso queira acessar o banco de dados você terá que instalar o Python no seu computador se você tiver Windows a própria microsoft store disponibilizará, é só baixar e abrir o Python Idle e após clonar o respositorio, baixe o sqlitebroswer neste link: https://sqlitebrowser.org/. Como IDE recomendo o Pycharm. em algum lugar desse readme deixarei umas consultas. Quando você executar o programa ele irá liberar um arquivo.db que é o seu banco de dados provavelmente será "empresa.db" abra o sqlite e vá em open database após ir pro caminho desse arquivo abra o arquivo.db, você poderá visualizar o banco de dados logo em seguida, caso queira praticar consultas vá para execute sql. Vale lembrar que o SQLlite possui algumas limitações, em consultas mais complexas ele não consegue conhectar as chaves estrangeiras e acaba por duplicando os dados. Recomendo usar o MySQL caso você tenha mais tempo de fazer o projeto, pode usar o banco do seu gosto também, esse projeto também é bem comátivel pra conectar com a API flask.
 
-CONSULTAS SQL:
+CONSULTA SQL:
 
 SELECT
     f.id_funcionario as "id do funcionario",
