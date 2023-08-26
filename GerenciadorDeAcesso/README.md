@@ -40,7 +40,7 @@ COMO EXECUTA O PROGRAMA
 
 Utilizei o Dockerfile assim você irá conseguir rodar o projeto  sem precisar baixar todas as ferramentas que usei como Python e pycharme por exemplo
 Siga esse passo a passo:
-1 - Faça um gitclone do meu repositório na sua máquina, use este link: https://github.com/Levi-cell/W5iDesafio/tree/main/GerenciadorDeAcesso
+1 - Faça um gitclone do meu repositório na sua máquina, use este link: https://github.com/Levi-cell/W5iDesafio.git
 2 - Abra o CMD no local da em que você baixou os arquivos 
 3 - Faça o seguinte comando python menu.py
 4 - Se sinta a vontade para interagir 
