@@ -2,8 +2,6 @@ CONSIDERAÇÕES INICIAIS:
 
 Por ser um Desafio Nacional, fiz o projeto 100% em português exceto por esse arquivo o "README" o qual o nome só fica estiloso em inglês hahaha.
 
-Não vou mentir que no inicio tive muitas ideias e foi difícil saber por onde começar, por isso decidi primeiro focar especificamente em realizar tudo que foi Pedido. Porém agora que a parte essencial do Projeto está pronta, tanto eu quanto  o público pode se sentir a vontade para contribuir com Ideias no GitHub.
-
 Neste video você encontrará um resumo do que tem aqui e algumas informações extras: https://vimeo.com/858088676/c12470a5c6
 
 
