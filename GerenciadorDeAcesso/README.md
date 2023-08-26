@@ -42,7 +42,7 @@ Utilizei o Dockerfile assim você irá conseguir rodar o projeto  sem precisar b
 Siga esse passo a passo:
 1 - Faça um gitclone do meu repositório na sua máquina, use este link: https://github.com/Levi-cell/W5iDesafio.git
 2 - Abra o CMD no local da em que você baixou os arquivos 
-3 - Use cd GerenciadorDeAcesso
+3 - Não esqueça de usar o comando cd GerenciadorDeAcesso 
 4 - Faça o seguinte comando python menu.py
 5 - Se sinta a vontade para interagir 
 
