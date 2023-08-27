@@ -2,13 +2,14 @@
 
 Por ser um Desafio Nacional, fiz o projeto 100% em português exceto por esse arquivo o "README" o qual o nome só fica estiloso em inglês hahaha.
 
-Neste video você encontrará mais detalhes: https://vimeo.com/858088676/c12470a5c6
+
+Neste video você encontrará mais detalhes sobre tudo que há nesse readme: https://vimeo.com/858088676/c12470a5c6
 
 ----------------------OBJETIVO DO PROGRAMA:--------------------------
 
 Imagine que você está fazendo o software de uma empresa para liberar o acesso aos funcionários para dentro e fora da empresa, é como se fosse aquelas catracas automáticas nos prédios só que ao passar pela catraca o funcionário precisar interagir com o Display, nesse display será mostrada 3 opções. a opção de cadastro para caso o funcionário seja novo, e opção de sair e entrar, vale lembrar que o funcionário não pode entrar de novo se ele já entrou, e não pode sair se já saiu. Também deve ter um banco de dados já que o programa só ficará ativo quando alguém passar pela catraca.
 
----------------------ORGANIZAÇÃO DOS ARQUIVOS E EXPLICAÇÃO LÓGICA--------------------------------
+---------------------ORGANIZAÇÃO DOS ARQUIVOS E EXPLICAÇÃO LÓGICA:-------------------------------
 
 
 funcionario.py : Começarei por esse arquivo pois ele é bem simple, a ideia é criar uma classe que possa fornecer atributos para os nossos objetos, dentre eles: nome,sobrenome,cpf
@@ -33,7 +34,7 @@ tempoExpediente(): O objetivo é armazenar a diferença entra a data mais recent
 
 Agora vamos para saida(). O inicio é a mesma ideia da entrada.  a diferença está somente na segunda validação, enquanto o funcinario esta na operação a saida sempre vai ser uma unidade menor que a entrada e após ele sair da operação as duas irão se igualar então se na proxima saida o número de entradas e saidas forem iguais, essa saida deve ser barrada. Logo em seguida Também utilizamos o tempeExpediente em segundos para obter o tempo de permanência na operação.
 
-COMO EXECUTA O PROGRAMA
+----------------COMO EXECUTA O PROGRAMA:----------------
 
 Utilizei o Dockerfile assim você irá conseguir rodar o projeto  sem precisar baixar todas as ferramentas que usei como Python e pycharme por exemplo
 Siga esse passo a passo:
@@ -43,11 +44,11 @@ Siga esse passo a passo:
 4 - Faça o seguinte comando python menu.py
 5 - Se sinta a vontade para interagir 
 
-COMO ACESSAR O BANCO DE DADOS
+--------------COMO ACESSAR O BANCO DE DADOS:----------------
 
 Caso queira acessar o banco de dados você terá que instalar o Python no seu computador se você tiver Windows a própria microsoft store disponibilizará, é só baixar e abrir o Python Idle e após clonar o respositorio, baixe o sqlitebroswer neste link: https://sqlitebrowser.org/. Como IDE recomendo o Pycharm. 
 
-CONSULTA SQL:
+---------------CONSULTA SQL:----------------------
 
 SELECT
     f.id_funcionario as "id do funcionario",
@@ -60,14 +61,13 @@ INNER JOIN
 GROUP BY
     f.id_funcionario, f.nome;
 
-CONSULTA SQL:
 
 SELECT * FROM registro_entrada/
 SELECT * FROM registro_saida/
 Select * FROM funcionarios/
 
 
-AGRADECIMENTOS:
+-----------------AGRADECIMENTOS:-----------------------
 
 Gostaria de Agradecer a W5i por esse desafio que por mais que pareça simples, foi muito divertido de resolver e desafiador.
 
