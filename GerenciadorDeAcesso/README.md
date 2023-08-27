@@ -45,7 +45,7 @@ Siga esse passo a passo:
 
 COMO ACESSAR O BANCO DE DADOS
 
-Caso queira acessar o banco de dados você terá que instalar o Python no seu computador se você tiver Windows a própria microsoft store disponibilizará, é só baixar e abrir o Python Idle e após clonar o respositorio, baixe o sqlitebroswer neste link: https://sqlitebrowser.org/. Como IDE recomendo o Pycharm. Vale lembrar que o SQLlite possui algumas limitações, em consultas mais complexas ele não consegue conhectar as chaves estrangeiras e acaba por duplicando os dados. Recomendo usar o MySQL caso você tenha mais tempo de fazer o projeto, pode usar o banco do seu gosto também, esse projeto também é bem copátivel pra conectar com a API flask.
+Caso queira acessar o banco de dados você terá que instalar o Python no seu computador se você tiver Windows a própria microsoft store disponibilizará, é só baixar e abrir o Python Idle e após clonar o respositorio, baixe o sqlitebroswer neste link: https://sqlitebrowser.org/. Como IDE recomendo o Pycharm. 
 
 CONSULTA SQL:
 
@@ -60,6 +60,11 @@ INNER JOIN
 GROUP BY
     f.id_funcionario, f.nome;
 
+CONSULTA SQL:
+
+SELECT * FROM registro_entrada
+SELECT * FROM registro_saida
+Select * FROM funcionarios
 
 
 AGRADECIMENTOS:
