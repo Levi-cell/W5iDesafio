@@ -52,7 +52,8 @@ Siga esse passo a passo:
 2 - Abra o CMD no local da em que você baixou os arquivos 
 3 - Não esqueça de usar o comando cd GerenciadorDeAcesso 
 4 - Faça o seguinte comando python menu.py
-5 - Se sinta a vontade para interagir 
+5 - Se sinta a vontade para interagir
+Observação: caso delete o banco de dados, antes de rodar python menu.py faça o comando: python migracao.py
 
 --------------COMO ACESSAR O BANCO DE DADOS:----------------
 
