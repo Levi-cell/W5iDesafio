@@ -1,9 +1,7 @@
 --------------------CONSIDERAÇÕES INICIAIS:-------------------------
 
-Por ser um Desafio Nacional, fiz o projeto 100% em português exceto por esse arquivo o "README" o qual o nome só fica estiloso em inglês hahaha.
-
-
-Neste video você encontrará mais detalhes sobre tudo que há nesse readme: https://vimeo.com/858088676/c12470a5c6
+1- Por ser um Desafio Nacional, fiz o projeto 100% em português exceto por esse arquivo o "README" o qual o nome só fica estiloso em inglês hahaha.
+2- Caso você tenha dúvida em algum tópico acesse o vídeo correspondente ao tópico.
 
 ----------------------OBJETIVO DO PROGRAMA:--------------------------
 
