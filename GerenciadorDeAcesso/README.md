@@ -55,17 +55,24 @@ vídeo: https://vimeo.com/858481603/8197e60580
 Utilizei o Dockerfile assim você irá conseguir rodar o projeto  sem precisar baixar todas as ferramentas que usei como Python e pycharme por exemplo
 Siga esse passo a passo:
 1 - Faça um gitclone do meu repositório na sua máquina, use este link: https://github.com/Levi-cell/W5iDesafio.git
+
 2 - Abra o CMD no local da em que você baixou os arquivos. 
-3 - Não esqueça de usar o comando cd GerenciadorDeAcesso. 
+
+3 - Não esqueça de usar o comando cd GerenciadorDeAcesso.
+
 4 - Faça o seguinte comando python menu.py
+
 5 - Se sinta a vontade para interagir.
+
 Observação: caso delete o banco de dados, antes de rodar python menu.py faça o comando: python migracao.py
 
 vídeo: https://vimeo.com/858489837/76b11cbe78
 
 --------------COMO ACESSAR O BANCO DE DADOS:----------------
 
-Caso queira acessar o banco de dados você terá que instalar o Python no seu computador se você tiver Windows a própria microsoft store disponibilizará, é só baixar e abrir o Python Idle e após clonar o respositorio, baixe o sqlitebroswer neste link: https://sqlitebrowser.org/. Como IDE recomendo o Pycharm. 
+Caso queira acessar o banco de dados você terá que instalar o Python no seu computador se você tiver Windows a própria microsoft store disponibilizará, é só baixar e abrir o Python Idle e após clonar o respositorio, baixe o sqlitebroswer neste link: https://sqlitebrowser.org/.
+
+Como IDE recomendo o Pycharm. 
 
 vídeo: https://vimeo.com/858490833/2206774df2
 
