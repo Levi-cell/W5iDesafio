@@ -120,9 +120,11 @@ WHERE nome = 'Levi'
 ------------------- CONSULTAS SQL SIMPLES:--------------------
 
 
-SELECT * FROM registro_entrada/
-SELECT * FROM registro_saida/
-Select * FROM funcionarios/
+SELECT * FROM registro_entrada
+
+SELECT * FROM registro_saida
+
+Select * FROM funcionarios
 
 
 -----------------AGRADECIMENTOS:-----------------------
