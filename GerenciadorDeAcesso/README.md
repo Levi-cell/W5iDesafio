@@ -82,16 +82,12 @@ vídeo continuação: https://vimeo.com/858497308/a07d06d7fb
 
 SELECT
     f.id_funcionario as "id do funcionario",
-    
     f.nome as "nome do funcionario",
-    
     SUM(o.tempo_da_operacao_em_segundos)/60 as "Duração de todas operacoes em minutos"
 FROM
     funcionarios f
-    
 INNER JOIN
     operacao o on o.codigo_funcionario = f.id_funcionario
-    
 GROUP BY
     f.id_funcionario, f.nome;
 
