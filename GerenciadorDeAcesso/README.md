@@ -52,7 +52,7 @@ vídeo: https://vimeo.com/858481603/8197e60580
 
 ----------------COMO EXECUTA O PROGRAMA:----------------
 
-Utilizei o Dockerfile assim você irá conseguir rodar o projeto  sem precisar baixar todas as ferramentas que usei como Python e pycharme por exemplo
+Utilizei o Dockerfile , graças a esse aplicativo você irá conseguir rodar o projeto  sem precisar baixar todas as ferramentas que usei como Python e pycharme por exemplo.
 Siga esse passo a passo:
 
 
