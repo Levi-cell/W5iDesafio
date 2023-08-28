@@ -89,10 +89,11 @@ SELECT
 FROM
     funcionarios f
 INNER JOIN
-    operacao o on o.codigo_funcionario = f.id_funcionario
+    operacao o
+ON
+    o.codigo_funcionario = f.id_funcionario
 GROUP BY
     f.id_funcionario, f.nome;
-
 //
 
 SELECT f.nome,
