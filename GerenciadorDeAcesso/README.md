@@ -52,8 +52,15 @@ vídeo: https://vimeo.com/858481603/8197e60580
 
 ----------------COMO EXECUTA O PROGRAMA:----------------
 
-Utilizei o Dockerfile , graças a esse aplicativo você irá conseguir rodar o projeto  sem precisar baixar todas as ferramentas que usei como Python e pycharme por exemplo.
-Siga esse passo a passo:
+Utilizei o Dockerfile , graças a esse aplicativo você irá conseguir rodar o projeto  sem precisar baixar todas as ferramentas que usei como  pycharme por exemplo. Apenas baixe o python, a microsoft sotre disponibiliza o Python no Windows caso esteja utilizando o Windows, você também pode apenas baixar o pyinstaller, faça assim:
+
+1 - abra o CMD e digite : pip install pyinstaller
+
+2 - pyinstaller --onefile GerenciadorDeAcesso.py
+
+Observação: Caso não funcione faça um cd GerenciadorDeAcesso
+
+Após isso siga esse passo a passo para executar o programa:
 
 
 1 - Faça um gitclone do meu repositório na sua máquina, use este link: https://github.com/Levi-cell/W5iDesafio.git
@@ -72,7 +79,7 @@ vídeo: https://vimeo.com/858489837/76b11cbe78
 
 --------------COMO ACESSAR O BANCO DE DADOS:----------------
 
-Caso queira acessar o banco de dados você terá que instalar o Python no seu computador se você tiver Windows a própria microsoft store disponibilizará, é só baixar e abrir o Python Idle e após clonar o respositorio, baixe o sqlitebroswer neste link: https://sqlitebrowser.org/.
+ É só baixar e abrir o Python Idle e após clonar o respositorio, baixe o sqlitebroswer neste link: https://sqlitebrowser.org/.
 
 Como IDE recomendo o Pycharm. 
 
