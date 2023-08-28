@@ -54,23 +54,54 @@ Siga esse passo a passo:
 4 - Faça o seguinte comando python menu.py
 5 - Se sinta a vontade para interagir
 Observação: caso delete o banco de dados, antes de rodar python menu.py faça o comando: python migracao.py
+vídeo: https://vimeo.com/858489837/76b11cbe78
 
 --------------COMO ACESSAR O BANCO DE DADOS:----------------
 
 Caso queira acessar o banco de dados você terá que instalar o Python no seu computador se você tiver Windows a própria microsoft store disponibilizará, é só baixar e abrir o Python Idle e após clonar o respositorio, baixe o sqlitebroswer neste link: https://sqlitebrowser.org/. Como IDE recomendo o Pycharm. 
+vídeo: https://vimeo.com/858490833/2206774df2
+viíde continuação: https://vimeo.com/858497308/a07d06d7fb
 
----------------CONSULTA SQL:----------------------
+---------------CONSULTA SQL INTERMEDIARIAS:----------------------
 
 SELECT
     f.id_funcionario as "id do funcionario",
     f.nome as "nome do funcionario",
-    SUM(o.tempo_da_operacao_em_segundos) as "Duração de todas operacoes em segundos"
+    SUM(o.tempo_da_operacao_em_segundos)/60 as "Duração de todas operacoes em minutos"
 FROM
     funcionarios f
 INNER JOIN
     operacao o on o.codigo_funcionario = f.id_funcionario
 GROUP BY
     f.id_funcionario, f.nome;
+
+//
+
+SELECT f.nome,
+       re.data_hora_entrada
+       FROM registro_entrada re
+INNER JOIN funcionarios f on f.id_funcionario = re.codigo_funcionario
+where nome = 'Levi';
+
+//
+
+SELECT f.nome,
+       rs.data_hora_saida
+       FROM registro_saida rs
+INNER JOIN funcionarios f on f.id_funcionario = rs.codigo_funcionario
+where nome = 'Levi';
+
+//
+
+SELECt f.nome as 'Funcionario',
+       SUM(o.tempo_da_operacao_em_segundos)/60 as 'Tempo total trabalhado na empresa em segundos'
+       FROM funcionarios f 
+INNER JOIN operacao o on f.id_funcionario = o.codigo_funcionario
+WHERE nome = 'Levi'
+ GROUP BY nome;
+    
+
+------------------- CONSULTAS SQL SIMPLES:--------------------
 
 
 SELECT * FROM registro_entrada/
