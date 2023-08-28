@@ -94,6 +94,7 @@ ON
     o.codigo_funcionario = f.id_funcionario
 GROUP BY
     f.id_funcionario, f.nome;
+    
 //
 
 SELECT f.nome,
