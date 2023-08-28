@@ -61,7 +61,7 @@ vídeo: https://vimeo.com/858489837/76b11cbe78
 Caso queira acessar o banco de dados você terá que instalar o Python no seu computador se você tiver Windows a própria microsoft store disponibilizará, é só baixar e abrir o Python Idle e após clonar o respositorio, baixe o sqlitebroswer neste link: https://sqlitebrowser.org/. Como IDE recomendo o Pycharm. 
 vídeo: https://vimeo.com/858490833/2206774df2
 
-vídoe continuação: https://vimeo.com/858497308/a07d06d7fb
+vídeo continuação: https://vimeo.com/858497308/a07d06d7fb
 
 ---------------CONSULTA SQL INTERMEDIARIAS:----------------------
 
