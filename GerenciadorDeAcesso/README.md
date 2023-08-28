@@ -80,6 +80,8 @@ vídeo continuação: https://vimeo.com/858497308/a07d06d7fb
 
 ---------------CONSULTA SQL INTERMEDIARIAS:----------------------
 
+apenas copie e cole para o SQL..
+
 SELECT
     f.id_funcionario as "id do funcionario",
     f.nome as "nome do funcionario",
