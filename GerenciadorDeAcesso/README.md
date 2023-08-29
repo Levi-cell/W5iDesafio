@@ -52,7 +52,7 @@ vídeo: https://vimeo.com/858481603/8197e60580
 
 ----------------COMO EXECUTA O PROGRAMA:----------------
 
-Utilizei o Dockerfile , graças a esse aplicativo você irá conseguir rodar o projeto  sem precisar baixar todas as ferramentas que usei como  pycharme por exemplo. Apenas baixe o python, a microsoft sotre disponibiliza o Python no Windows caso esteja utilizando o Windows, você também pode apenas baixar o pyinstaller caso prefira, faça assim:
+Utilizei o Dockerfile , graças a esse aplicativo você irá conseguir rodar o projeto  sem precisar baixar todas as ferramentas que usei como  pycharme por exemplo. Apenas baixe o python, o processo irá depender do seus sistema operaciona, se for windows a microsoft store disponibiliza o Python no Windows, você também pode apenas baixar o pyinstaller caso prefira, faça assim:
 
 1 - abra o CMD e digite : pip install pyinstaller
 
