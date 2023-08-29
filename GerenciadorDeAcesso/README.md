@@ -79,9 +79,7 @@ vídeo: https://vimeo.com/858489837/76b11cbe78
 
 --------------COMO ACESSAR O BANCO DE DADOS:----------------
 
- É só baixar e abrir o Python Idle e após clonar o respositorio, baixe o sqlitebroswer neste link: https://sqlitebrowser.org/.
-
-Como IDE recomendo o Pycharm. 
+baixe o sqlitebroswer neste link: https://sqlitebrowser.org/.
 
 vídeo: https://vimeo.com/858490833/2206774df2
 
