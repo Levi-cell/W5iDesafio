@@ -87,7 +87,7 @@ vídeo continuação: https://vimeo.com/858497308/a07d06d7fb
 
 ---------------CONSULTA SQL INTERMEDIARIAS:----------------------
 
-apenas copie e cole para o SQL.. Não esqueça de Selecionar o modo de visualiação de código, apenas clique em "code". opção entre preview e blame
+apenas copie e cole para o SQL.. para você copiar a identação certa das consultas selecione o modo de visualiação de código, apenas clique em "code". opção entre preview e blame
 
 SELECT
     f.id_funcionario as "id do funcionario",
