@@ -1,7 +1,7 @@
 import re
 def trataNome(nome):
     while not nome.isalpha() or len(nome) < 4:
-        name = input("Nome inválido, por favor digite novamente:" + "\n")
+        nome = input("Nome inválido, por favor digite novamente:" + "\n")
     return nome
 
 
