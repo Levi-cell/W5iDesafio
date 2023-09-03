@@ -44,8 +44,8 @@ def entrada():
             cursor.execute("""INSERT INTO registro_entrada (data_hora_entrada, codigo_funcionario)
                                               VALUES(?, ?)""", (horaInicio, resultado[0],))
             conexao.commit()
-            print(f"""Olá {resultado[1]} seja bem vindo a operação, a contagem do seu tempo
-            de trabalho começa agora, data e hora de ínicio: {horaInicio}  """ + "\n")
+            print(f"""Olá {resultado[1]} seja bem vindo a operação, a contagem do seu tempo de trabalho começa agora...""")
+            print(f"""data e hora de ínicio: {horaInicio}""" + "\n")
 
     else:
         print("Você não está no nosso banco de dados." + "\n")
