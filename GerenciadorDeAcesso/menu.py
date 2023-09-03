@@ -29,10 +29,8 @@ while True:
 
     if menu == "3":
         saida()
-    else:
-        print("Opção Inválida")
 
-    opcao = input("Deseja fazer mais alguma coisa ? Digite S para sim ou N para não: " + "\n")
+    opcao = input("Digitou a opção errada ou deseja fazer mais alguma coisa ? Digite S para sim ou N para não: " + "\n")
     if opcao == "N":
         break
 
