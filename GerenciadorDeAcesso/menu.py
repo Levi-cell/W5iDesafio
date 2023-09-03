@@ -30,8 +30,8 @@ while True:
     if menu == "3":
         saida()
 
-    opcao = input("""Digitou a opção errada ou deseja fazer mais alguma coisa ?
-    Digite S para prosseguir ou digite qualquer tecla para encerrar o programa: """ + "\n")
+    print("Digitou a opção errada ou deseja fazer mais alguma coisa ?")
+    opcao = input("Digite S para voltar ao menu ou digite qualquer tecla para encerrar o programa: " + "\n")
     if opcao == "N":
         break
 
