@@ -103,7 +103,7 @@ SELECT f.nome,
        re.data_hora_entrada
        FROM registro_entrada re      
 INNER JOIN funcionarios f on f.id_funcionario = re.codigo_funcionario
-where nome = 'Levi';
+
 
 //
 
@@ -111,7 +111,7 @@ SELECT f.nome,
        rs.data_hora_saida      
        FROM registro_saida rs     
 INNER JOIN funcionarios f on f.id_funcionario = rs.codigo_funcionario
-where nome = 'Levi';
+
 
 //
 

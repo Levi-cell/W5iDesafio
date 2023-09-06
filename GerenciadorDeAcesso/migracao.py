@@ -30,3 +30,4 @@ tempo_da_operacao_em_segundos REAL NOT NULL,
 codigo_funcionario INTEGER NOT NULL,
 FOREIGN KEY (codigo_funcionario) REFERENCES funcionarios(id_funcionario)
 )""")
+

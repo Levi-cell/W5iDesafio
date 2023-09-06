@@ -11,18 +11,7 @@ while True:
     Digite a opção que deseja:""" + "\n")
 
     if menu == "1":
-        funcionario = adicionaFuncionario()
-        cursor.execute("INSERT INTO funcionarios (nome,sobrenome, CPF) VALUES (?, ?, ?)",
-                       (funcionario.nome, funcionario.sobrenome, funcionario.cpf,))
-        conexao.commit()
-        cursor.execute("SELECT * FROM funcionarios WHERE nome = ?", (funcionario.nome,))
-        resultado = cursor.fetchone()
-
-        print("Funcionário inserido com sucesso:")
-        print("ID:", resultado[0])
-        print("Nome:", resultado[1])
-        print("Sobrenome:", resultado[2])
-        print("CPF:", resultado[3] + "\n")
+        adicionaFuncionario()
 
     if menu == "2":
         entrada()
@@ -31,7 +20,8 @@ while True:
         saida()
 
     print("Digitou a opção errada ou deseja fazer mais alguma coisa ?")
-    opcao = input("Então Digite S para voltar ao menu ou digite qualquer tecla para encerrar o programa: " + "\n")
+    opcao = input("Caso sim,"
+                  "digite S para voltar ao menu ou digite qualquer tecla para encerrar o programa: " + "\n")
     if opcao == "N":
         break
 
