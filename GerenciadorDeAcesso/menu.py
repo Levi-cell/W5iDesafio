@@ -21,7 +21,7 @@ while True:
 
     print("Digitou a opção errada ou deseja fazer mais alguma coisa ?")
     opcao = input("Caso sim,"
-                  "digite S para voltar ao menu ou digite qualquer tecla para encerrar o programa: " + "\n")
+                  "digite S para voltar ao menu ou digite N para encerrar o programa: " + "\n")
     if opcao == "N":
         break
 
